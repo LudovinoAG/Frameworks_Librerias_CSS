@@ -1,0 +1,133 @@
+@font-face{
+	font-family: LemonRegular;
+	src:url("../fonts/LemonRegular.ttf");
+}
+
+body{
+	background: url("../img/fondo.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+.callout{
+	margin: 5px auto;
+	width: 75%;
+	background-color: rgba(255,195,92, 0.8);
+}
+
+.line{
+	border-left: 1px solid white;
+}
+
+.logo h3{
+	color: rgb(63,179,59);
+	font-family: LemonRegular;
+}
+
+.logo span{
+	color: rgb(80,80,80);
+	font-family: 'Freestyle Script';
+	font-size: 1.5em;
+}
+
+.line-button{
+	margin-top: 10px;
+	width: 100%;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+
+.buscardor{
+	margin-top: 20px;
+	border-bottom: 1px solid white;
+}
+
+
+
+.input-group-label{
+	background-color: rgb(63,179,59);
+
+}
+
+.menu li a{
+	color: rgb(80,80,80);
+	font-weight: bold;
+	font-family: Lemon;
+	font-size: 1.0em;
+}
+
+.menu{
+	margin-top: 10px;
+	margin-bottom: 40px;	
+}
+
+.menu li{
+	background-color: white;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.lateral-izq{
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,200,92, 0.8);
+}
+
+.img-favorito{
+	width: 150px;
+
+	border:2px solid white;
+	margin-right: 10px;
+}
+
+.title-favoritos{
+	color: rgb(63,179,59);
+	font-family: LemonRegular;
+}
+
+.historia li{
+	list-style: none;
+}
+
+.historia li a{
+	color: rgb(80,80,80);
+	font-weight: bolder;
+}
+
+
+.publica{
+	display: flex;
+	width: 100%;
+	border:1px solid grey;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px 15px;
+}
+
+
+
+.img-publica{
+	width: 40px;
+	margin-left: 10px;
+}
+
+.Titulo-publica{
+	background-color: rgb(63,179,59);
+	color: white;
+	width: 80%;
+}
+
+.Titulo-publica span{
+	color: rgb(80,80,80);
+	font-weight: bolder;
+}
+
+.img-portada{
+	border:1px solid black;
+	margin-top: 10px;
+}
+
+.Marco{
+	background-color: white;
+	margin-top: 20px;
+}
