@@ -1,0 +1,57 @@
+@font-face{
+	font-family: Sofia;
+	src:url("../fonts/Sofia.ttf");
+}
+
+body{
+	background: url(../img/fondo.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+.bar-1{
+	height: 150px;
+}
+
+.img-logo{
+	width: 200px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px 1px black;
+}
+
+
+
+.columna-slogan{
+	margin-top: 10px;
+	font-family: Sofia;
+}
+
+nav{
+background-color: rgba(255,255,255, 0);
+}
+
+nav ul li{
+margin-left: 60px;
+font-weight: bold;
+}
+
+
+ul li img{
+	width: 50px;
+}
+
+.redes-sociales li{
+	margin-top: 30px;
+}
+
+.card-panel img{
+	width: 200px;
+}
+
+.autor{
+	text-align: center;
+}
+
+.img-galeria{
+	width: 300px;
+	border:1px solid white;
+}
